@@ -1,189 +1,161 @@
-# Awesome-Employee-Engagement-Platform
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Employee Engagement Platforms Banner" width="100%">
+</p>
 
-## Top Employee Engagement Platform Ecosystem
+# Awesome Employee Engagement Platforms [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+> A curated list of leading Enterprise SaaS suites, People Analytics software, and Open-Source Employee Engagement solutions for workforce sentiment analysis, pulse surveys, eNPS measurement, anonymous feedback, and peer recognition.
 
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Engagement Surveys, Pulse Feedback & Employee Experience Analytics*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Employee Engagement Platforms**. These tools enable organizations to measure employee sentiment, run pulse surveys, collect anonymous feedback, and analyze engagement drivers—helping leaders understand what keeps employees motivated and what drives them away.
-
-
-
-**Examples** include Workday Peakon Employee Voice, Culture Amp, Lattice, Glint, Qualtrics EmployeeXM, 15Five, Perceptyx, Leapsome, Officevibe, and Workvivo (the category leaders).
-
-
-
-**Open-source emphasis**: Employee Engagement is a domain where open-source tooling is **sparse and early-stage**. The strongest active project is **Alignify**, an AI-powered anonymous survey platform with automated question generation and sentiment classification using Qwen and DistilBERT . **Check-Ins** (Object Computing) provides a broader team engagement platform including pulse surveys and feedback management . However, no open-source platform matches the sentiment analytics depth, benchmark data, and action-planning workflows of Workday Peakon or Culture Amp. Organizations requiring sophisticated engagement analytics should plan for commercial platforms.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-products)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Workday Peakon Employee Voice](https://www.workday.com/)**  
-
-  AI-powered employee engagement platform with scalable pulse surveys, NLP sentiment analytics for open-ended comments, and benchmark data; users praise its scalability for global directories and real-time data aggregation.
-
-
-
-- **[Culture Amp](https://www.cultureamp.com/)**  
-
-  Employee experience platform with engagement surveys, sentiment analysis, heat maps, and AI coaches; users report that native AI analysis eliminates the need for external tools to summarize verbatim comments.
-
-
-
-- **[Lattice](https://lattice.com/)**  
-
-  Performance and engagement platform with surveys, goals, 1:1s, and continuous feedback; AI capabilities reduce review preparation time and encourage consistent feedback.
-
-
-
-- **[Glint (Microsoft Viva)](https://www.microsoft.com/en-us/microsoft-viva)**  
-
-  Employee engagement platform integrated into Microsoft Viva; convenient for organizations already using Microsoft 365 and Teams, providing engagement insights within the productivity ecosystem.
-
-
-
-- **[Qualtrics EmployeeXM](https://www.qualtrics.com/)**  
-
-  Enterprise experience management platform with employee engagement surveys and analytics; users note the dashboard is straightforward for HR teams but API data export can be messy for technical teams.
-
-
-
-- **[15Five](https://www.15five.com/)**  
-
-  Performance management with weekly check-ins, engagement surveys, and manager-employee conversations.
-
-
-
-- **[Perceptyx](https://www.perceptyx.com/)**  
-
-  Employee listening platform with surveys, analytics, and action planning for enterprise organizations.
-
-
-
-- **[Leapsome](https://www.leapsome.com/)**  
-
-  Comprehensive performance management with goals, engagement surveys, and development features.
-
-
-
-- **[Officevibe](https://officevibe.com/)**  
-
-  Employee engagement platform with pulse surveys, eNPS scoring, anonymous feedback, and team insights (now part of Workleap).
-
-
-
-- **[Workvivo](https://www.workvivo.com/)**  
-
-  Employee communication and engagement platform (acquired by Zoom) with social feeds, recognition, and surveys.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Alignify](https://github.com/iam-tsr/alignify)**  
-
-  AI-powered employee engagement platform (early beta) with anonymous survey collection; uses **Qwen model for automated question generation** (~8 seconds for 10 questions) and **DistilBERT for feedback sentiment classification** (~2 seconds per classification); management dashboard provides graphical insights and AI-generated improvement suggestions . Python/CSS/JavaScript stack with Dockerfile included. **The most purpose-built open-source employee engagement tool** with genuine AI automation, though early-stage with a single contributor.
-
-
-
-- **[Check-Ins](https://github.com/objectcomputing/check-ins)**  
-
-  Comprehensive open-source team engagement platform built on Micronaut and React, deployable on-premises or GCP; features **Pulse Surveys** for gauging team sentiment, feedback management, performance reviews, public Kudos, skill tracking, and mentor program management . Actively used at Object Computing. **Broader HRIS/engagement suite** rather than engagement-specific, but includes core pulse survey functionality.
-
-
-
-- **[Good Job](https://github.com/dongitran/Good-Job)**  
-
-  Open-source employee recognition and reward platform (React/NestJS/PostgreSQL); features peer-to-peer kudos with points tied to core values, dual-balance points system (giveable + redeemable), reward catalog with stock tracking, admin analytics for engagement metrics, and real-time feed via SSE . **Recognition-focused** rather than survey-based engagement, but addresses a key engagement driver (appreciation) with a modern, well-tested stack (170 E2E tests).
-
-
-
-- **[Plugiva Pulse](https://wordpress.org/plugins/plugiva-pulse/)**  
-
-  Lightweight open-source WordPress plugin for creating quick feedback forms and polls; supports yes/no, emoji, or short text questions with AJAX-powered frontend, CSV export, and privacy-conscious local data storage . **Minimal but functional**—suitable for WordPress-based intranets needing simple pulse collection without a dedicated platform.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **employee-pulse-survey-enps-engine** — Open-source enterprise pulse survey platform (Python/FastAPI) for weekly sentiment feedback, eNPS calculation, and burnout trend identification; includes Docker and CI/CD workflows . **Early-stage** with no community traction (0 stars), but demonstrates the architecture for an eNPS engine.
-
-- **PulseForms** — Open-source survey platform (Django/MySQL) with role-based access, conditional logic, and statistics/CSV export . **General survey tool** that can be configured for employee pulses, but not purpose-built for engagement.
-
-- **eXo Platform** — Open-source digital workplace with employee recognition and engagement features; starting at $3/user/month for the supported edition . **Broader digital workplace** rather than a dedicated engagement platform.
-
-
-
-**Frameworks for building custom systems**: **Alignify** provides the most focused open-source foundation for anonymous engagement surveys with AI sentiment classification . **Check-Ins** provides a broader engagement platform including pulse surveys and feedback . **Good Job** addresses recognition as an engagement driver with a well-architected points system . A complete engagement platform would require combining survey collection (Alignify or Plugiva Pulse), sentiment analytics (Alignify's DistilBERT or custom NLP), and action planning workflows—with no single open-source platform providing the full lifecycle.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Employee engagement platforms handling sensitive feedback data must comply with applicable privacy regulations (GDPR, CCPA) and organizational data governance policies; **anonymity guarantees are critical**—employees must trust that their feedback cannot be traced back to them.
-
-- **Open-source employee engagement remains early-stage**—Alignify provides AI-powered anonymous surveys but is in beta with a single contributor ; Check-Ins provides broader engagement features but less engagement-specific analytics . No open-source platform matches Workday Peakon's NLP sentiment depth or Culture Amp's benchmark data. Organizations requiring enterprise-scale engagement analytics should budget for commercial platforms.
-
-- Verify license terms for commercial use; Alignify and Check-Ins are open-source (check repositories), Good Job is open-source, and Plugiva Pulse is a WordPress plugin.
-
-
+[![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Employee-Engagement-Platform?style=social)](https://github.com/ishandutta2007/Awesome-Employee-Engagement-Platform/stargazers)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 
 ---
 
+## Sector Overview & Market Dynamics
 
+The global employee engagement software market is estimated at **$1.2 billion to $1.4 billion** (scaling to **$3.4 billion to $4.6 billion** when including broader Employee Experience Platforms / EXP suites), growing at a compound annual growth rate (CAGR) of **11% to 17%**. The industry structure is **moderately fragmented**—major enterprise HCM and tech heavyweights (such as Workday, Qualtrics, and Microsoft Viva) collectively hold approximately 25% to 30% of enterprise market share, leaving over 70% of the market distributed among specialized employee experience vendors, mid-market continuous-listening platforms, and niche recognition solutions.
 
-**Made for HR leaders, engagement managers, people analytics teams, and employee experience practitioners.**  
+---
 
-Let's make employee engagement more open, anonymous, and action-oriented.
+## Table of Contents
+
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted Platforms](#saas--hosted-platforms)
+- [Open-Source GitHub Projects](#open-source-github-projects)
+- [Key Selection Criteria & Architecture](#key-selection-criteria--architecture)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer](#disclaimer)
+
+---
+
+## SaaS & Hosted Platforms
+
+The table below is sorted by **Company Scale (Valuation / Revenue) in descending order**:
+
+| Platform | Company Scale (Valuation / Revenue) | Starting Pricing (Specific Entry Tier) | Free Tier / Trial Limit | Key Highlights & Core Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| [**Glint (Microsoft Viva)**](https://www.microsoft.com/en-us/microsoft-viva) | **$3.1T+** Market Cap (Microsoft parent; $245B+ Annual Revenue) | **$2.00 / user / month** (billed annually as standalone Viva Glint add-on) | **30-day free trial** for Microsoft Viva Suite (up to 50 user licenses) | Native Microsoft 365 and Teams integration, real-time sentiment alerts, predictive engagement drivers, and executive heat maps. |
+| [**Workday Peakon Employee Voice**](https://www.workday.com/) | **$65B+** Market Cap (WDAY; $9.55B FY26 Revenue) | **$3.50 – $5.00 / user / month** (billed annually for base listening tier; enterprise floor applies) | **Interactive guided demo only**; no self-serve free trial or free tier available | Scalable continuous pulse surveys, multilingual NLP for unstructured feedback comments, and global industry benchmark comparisons. |
+| [**Qualtrics EmployeeXM**](https://www.qualtrics.com/) | **$12.5B** Valuation (Acquired by Silver Lake / CPP; $1.5B+ Annual Revenue) | **$1,500 / month** (~$18,000 / year starting annual contract floor for small teams) | **30-day free trial** of Qualtrics CoreXM (survey builder & sentiment suite; capped at 500 survey responses) | Enterprise-grade listening, multi-channel feedback collection, advanced text analytics via Qualtrics iQ, and predictive attrition insights. |
+| [**Workvivo**](https://www.workvivo.com/) | **$20B+** Zoom Market Cap ($275M acquisition value; $100M+ ARR) | **$20,000 / year** (baseline Business tier for teams up to 250 users; ~$6.67/user/month equivalent) | **Custom sandbox trial** arranged via sales demo (typically 14 to 30 days for evaluated pilot teams) | Digital workplace intranet combining employee social feeds, peer badges/recognition, and micro pulse surveys in one hub. |
+| [**Lattice**](https://lattice.com/) | **$3.0B** Valuation ($130M+ ARR) | **$13.00 / user / month** (Foundations tier; +$4.00/user/month for Engagement module; $4,000 annual minimum) | **14-day free product tour / interactive sandbox** (no permanent free tier; credit card not required) | Integrated continuous performance, OKR goals, 1:1 agendas, employee engagement surveys, eNPS metrics, and AI synthesis. |
+| [**Culture Amp**](https://www.cultureamp.com/) | **$1.5B** Valuation ($180M+ ARR) | **$4,500 / year** (Starter plan for teams under 50 employees; scales to $10,500+ for mid-market) | **Interactive product tour only**; no public self-serve free tier or free trial without sales onboarding | Deep people science backing, survey question templates, turnover prediction, demographic sentiment filtering, and executive action plans. |
+| [**Leapsome**](https://www.leapsome.com/) | **$300M** Valuation ($28M+ ARR) | **$8.00 / user / month** (billed annually for Survey module; $199/month minimum account base) | **14-day full feature free trial** (unlimited trial users; no credit card required) | Modular European people enablement platform with pulse surveys, automated survey reminders, continuous feedback, and competency frameworks. |
+| [**15Five**](https://www.15five.com/) | **$250M+** Estimated Valuation ($110M+ ARR; $98M total raised) | **$4.00 / user / month** (billed annually for Engage tier; $5.00/user/month if billed monthly) | **14-day full feature free trial** (up to 25 users with complete survey & check-in capabilities) | Weekly check-in feedback, high-five peer recognition, engagement surveys, OKRs, and manager effectiveness coaching. |
+| [**Perceptyx**](https://www.perceptyx.com/) | **$200M+** Estimated Valuation ($95M+ Annual Revenue) | **$6.00 / user / month** (billed annually; minimum contract threshold starts at $15,000/year) | **Proof of Concept (PoC) pilot trial** available for qualified enterprise accounts (30-day scope) | Tailored enterprise employee listening architectures, 360 feedback, lifecycle surveys (onboarding/exit), and consulting benchmarks. |
+| [**Officevibe (Workleap)**](https://officevibe.com/) | **$100M+** Workleap Valuation ($40M+ Annual Revenue) | **$4.00 / user / month** (Pro plan billed annually; or $5.00 billed monthly; Essential tier starts at $3.50) | **Free forever plan** (strictly limited to 1 team and 1 month of historical survey analytics) | Automated weekly pulse check-ins, eNPS tracking, anonymous peer feedback threads, and built-in 1:1 conversation templates. |
+
+---
+
+## Open-Source GitHub Projects
+
+Open-source employee engagement solutions are ranked below by **GitHub Star Count in descending order**. Each repo includes a direct social badge linked to its stargazers:
+
+### 1. [Formbricks](https://github.com/formbricks/formbricks)
+[![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)
+* **Tech Stack:** TypeScript, Next.js, Tailwind CSS, Prisma, PostgreSQL
+* **Focus:** Open-source Survey Suite, In-app Pulses & Employee Experience Analytics
+* **Description:** An extensible open-source survey infrastructure and feedback engine. Widely adopted for employee pulse surveys, in-app micro-surveys, anonymous mood tracking, and custom eNPS data collection with complete data ownership and privacy compliance.
+
+### 2. [Meeds](https://github.com/Meeds-io/meeds)
+[![GitHub stars](https://img.shields.io/github/stars/Meeds-io/meeds?style=social&color=white)](https://github.com/Meeds-io/meeds/stargazers)
+* **Tech Stack:** Java, Vue.js, Docker
+* **Focus:** Employee Recognition, Gamification & Decentralized Engagement Hub
+* **Description:** An open-source employee engagement and recognition platform that drives workforce involvement through peer-to-peer kudos, engagement rewards, contribution badges, and social workplace collaboration tools.
+
+### 3. [Nexus](https://github.com/praveen-sripati/nexus)
+[![GitHub stars](https://img.shields.io/github/stars/praveen-sripati/nexus?style=social&color=white)](https://github.com/praveen-sripati/nexus/stargazers)
+* **Tech Stack:** React, TypeScript, Tailwind CSS
+* **Focus:** Modern Intranet, Team Engagement & Organizational Hub
+* **Description:** A modern intranet dashboard and team portal designed to centralize company communications, celebrate team milestones, track workplace engagement initiatives, and share organizational information.
+
+### 4. [eXo Platform Core](https://github.com/exoplatform/platform)
+[![GitHub stars](https://img.shields.io/github/stars/exoplatform/platform?style=social&color=white)](https://github.com/exoplatform/platform/stargazers)
+* **Tech Stack:** Java, Spring, Vue.js, MySQL
+* **Focus:** Digital Workplace, Enterprise Social & Peer Recognition
+* **Description:** An enterprise digital workplace engine providing team communication spaces, social networking, recognition badges, and internal employee engagement mechanisms with self-hosted on-premises deployment options.
+
+### 5. [Microsoft Teams New Employee Onboarding (NEO)](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding)
+[![GitHub stars](https://img.shields.io/github/stars/OfficeDev/microsoft-teams-apps-newemployeeonboarding?style=social&color=white)](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/stargazers)
+* **Tech Stack:** C#, Microsoft Bot Framework, SharePoint
+* **Focus:** New Hire Engagement & Onboarding Pulse Feedback
+* **Description:** Open-source Teams app built by Microsoft that connects new employees to organizational culture, coordinates peer buddies, and deploys automated onboarding pulse surveys to gauge early retention sentiment.
+
+### 6. [Employee Survey Questions](https://github.com/joyouslabs/employee-survey-questions)
+[![GitHub stars](https://img.shields.io/github/stars/joyouslabs/employee-survey-questions?style=social&color=white)](https://github.com/joyouslabs/employee-survey-questions/stargazers)
+* **Tech Stack:** Markdown, JSON, Open Question Bank
+* **Focus:** Open-Source Engagement Question Sets & eNPS Methodology
+* **Description:** A battle-tested open-source question repository formulated by people scientists for measuring workplace sentiment, psychological safety, leadership trust, and employee Net Promoter Score (eNPS).
+
+### 7. [OpenSteer](https://github.com/reckonsys/opensteer)
+[![GitHub stars](https://img.shields.io/github/stars/reckonsys/opensteer?style=social&color=white)](https://github.com/reckonsys/opensteer/stargazers)
+* **Tech Stack:** Python, Django, React
+* **Focus:** Open Employee Performance, 1:1 Check-ins & Engagement
+* **Description:** An open-source alternative to commercial continuous feedback tools, supporting employee goals, structured 1:1 check-in meetings, and continuous sentiment tracking.
+
+### 8. [Check-Ins](https://github.com/objectcomputing/check-ins)
+[![GitHub stars](https://img.shields.io/github/stars/objectcomputing/check-ins?style=social&color=white)](https://github.com/objectcomputing/check-ins/stargazers)
+* **Tech Stack:** Micronaut, React, PostgreSQL, GCP
+* **Focus:** Team Pulse Surveys, Mentorship & Feedback Management
+* **Description:** Full-featured open-source team engagement platform featuring recurring pulse surveys to measure team morale, feedback threads, peer kudos, and mentorship tracking.
+
+### 9. [HighFive Employee Recognition App](https://github.com/binduprakash/HighFive-Employee-Recognition-App)
+[![GitHub stars](https://img.shields.io/github/stars/binduprakash/HighFive-Employee-Recognition-App?style=social&color=white)](https://github.com/binduprakash/HighFive-Employee-Recognition-App/stargazers)
+* **Tech Stack:** React, Ruby on Rails, PostgreSQL
+* **Focus:** Peer Recognition & Gamified Rewards
+* **Description:** A community peer recognition platform facilitating peer-to-peer point allowances, shout-outs tied to company values, rewards redemption, and Slack notifications.
+
+### 10. [Open Pulse Survey](https://github.com/BrainStation-23/openpulsesurvey)
+[![GitHub stars](https://img.shields.io/github/stars/BrainStation-23/openpulsesurvey?style=social&color=white)](https://github.com/BrainStation-23/openpulsesurvey/stargazers)
+* **Tech Stack:** Node.js, Express, React, MongoDB
+* **Focus:** Enterprise Anonymous Pulse Surveys & Real-time Analytics
+* **Description:** Survey management platform engineered for businesses to distribute anonymous employee surveys, track response rates, and generate instant sentiment visualizer dashboards.
+
+### 11. [Alignify](https://github.com/iam-tsr/alignify)
+[![GitHub stars](https://img.shields.io/github/stars/iam-tsr/alignify?style=social&color=white)](https://github.com/iam-tsr/alignify/stargazers)
+* **Tech Stack:** Python, DistilBERT, Qwen LLM, Docker
+* **Focus:** AI-Powered Anonymous Surveys & NLP Sentiment Classification
+* **Description:** Purpose-built AI employee engagement prototype that uses Qwen for automatic contextual question generation and DistilBERT for real-time sentiment scoring of qualitative employee comments.
+
+### 12. [Good Job](https://github.com/dongitran/Good-Job)
+[![GitHub stars](https://img.shields.io/github/stars/dongitran/Good-Job?style=social&color=white)](https://github.com/dongitran/Good-Job/stargazers)
+* **Tech Stack:** NestJS, React, PostgreSQL, SSE
+* **Focus:** Peer-to-Peer Kudos & Value-Tied Reward System
+* **Description:** Modern recognition platform featuring a dual-balance point distribution system (giveable vs. redeemable), core value tags, real-time activity feeds via Server-Sent Events, and administrative reward inventory tracking.
+
+---
+
+## Key Selection Criteria & Architecture
+
+When architecting or procuring an employee engagement solution, consider the following technical and operational pillars:
+
+1. **Strict Anonymity Thresholds:** Platforms must enforce strict group aggregation minimums (typically 3–5 respondents minimum) before presenting filtered demographic reports to preserve individual psychological safety.
+2. **Qualitative NLP & Sentiment Analysis:** Natural Language Processing capabilities (e.g., DistilBERT, transformer-based LLMs) are essential for categorizing thousands of open-ended survey responses into actionable themes.
+3. **Integration Ecosystem:** Direct hooks into communication hubs (Slack, Microsoft Teams, Zoom) dramatically elevate survey completion and response rates compared to email-only blasts.
+4. **Action Planning Loops:** Collecting sentiment without following through damages employee trust; top solutions provide automated manager action templates and follow-up pulses.
+
+---
+
+## How to Contribute
+
+We welcome contributions from the community!
+
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/add-engagement-tool`.
+3. Add your tool to `README.md` following the existing tabular or badge format.
+4. Submit a Pull Request with a clear summary of why the platform qualifies.
+
+---
+
+## Disclaimer
+
+- This list is community-curated for informational and educational purposes.
+- Product pricing and corporate valuations are subject to market adjustments over time; refer to vendors' official pricing pages for binding quotes.
+- Always perform privacy impact assessments (GDPR, CCPA) prior to implementing employee listening tools.
+
+---
+
+<p align="center">
+  <b>Built for People Operations, People Analytics, HR Tech Engineers &amp; Engineering Leaders.</b>
+</p>
