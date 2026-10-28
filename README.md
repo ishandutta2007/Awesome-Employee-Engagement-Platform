@@ -8,7 +8,7 @@
 
 <p align="left">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Employee-Engagement-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Employee-Engagement-Platform?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Employee-Engagement-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Employee-Engagement-Platform?style=social" alt="GitHub_Stars" /></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -56,76 +56,76 @@ The table below is sorted by **Company Scale (Valuation / Revenue) in descending
 
 ## 💻 Open-Source GitHub Projects
 
-Open-source employee engagement solutions are ranked below by **GitHub Star Count in descending order**. Each repo includes a direct social badge linked to its stargazers:
+Open-source employee engagement solutions are ranked below by **GitHub Stars_Count in descending order**. Each repo includes a direct social badge linked to its stargazers:
 
 ### 1. 📋 [Formbricks](https://github.com/formbricks/formbricks)
-[![GitHub stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/formbricks/formbricks?style=social&color=white)](https://github.com/formbricks/formbricks/stargazers)
 * 🛠️ **Tech Stack:** TypeScript, Next.js, Tailwind CSS, Prisma, PostgreSQL
 * 🎯 **Focus:** Open-source Survey Suite, In-app Pulses & Employee Experience Analytics
 * 📝 **Description:** An extensible open-source survey infrastructure and feedback engine. Widely adopted for employee pulse surveys, in-app micro-surveys, anonymous mood tracking, and custom eNPS data collection with complete data ownership and privacy compliance.
 
 ### 2. 🏅 [Meeds](https://github.com/Meeds-io/meeds)
-[![GitHub stars](https://img.shields.io/github/stars/Meeds-io/meeds?style=social&color=white)](https://github.com/Meeds-io/meeds/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/Meeds-io/meeds?style=social&color=white)](https://github.com/Meeds-io/meeds/stargazers)
 * 🛠️ **Tech Stack:** Java, Vue.js, Docker
 * 🎯 **Focus:** Employee Recognition, Gamification & Decentralized Engagement Hub
 * 📝 **Description:** An open-source employee engagement and recognition platform that drives workforce involvement through peer-to-peer kudos, engagement rewards, contribution badges, and social workplace collaboration tools.
 
 ### 3. 🌐 [Nexus](https://github.com/praveen-sripati/nexus)
-[![GitHub stars](https://img.shields.io/github/stars/praveen-sripati/nexus?style=social&color=white)](https://github.com/praveen-sripati/nexus/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/praveen-sripati/nexus?style=social&color=white)](https://github.com/praveen-sripati/nexus/stargazers)
 * 🛠️ **Tech Stack:** React, TypeScript, Tailwind CSS
 * 🎯 **Focus:** Modern Intranet, Team Engagement & Organizational Hub
 * 📝 **Description:** A modern intranet dashboard and team portal designed to centralize company communications, celebrate team milestones, track workplace engagement initiatives, and share organizational information.
 
 ### 4. 🏢 [eXo Platform Core](https://github.com/exoplatform/platform)
-[![GitHub stars](https://img.shields.io/github/stars/exoplatform/platform?style=social&color=white)](https://github.com/exoplatform/platform/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/exoplatform/platform?style=social&color=white)](https://github.com/exoplatform/platform/stargazers)
 * 🛠️ **Tech Stack:** Java, Spring, Vue.js, MySQL
 * 🎯 **Focus:** Digital Workplace, Enterprise Social & Peer Recognition
 * 📝 **Description:** An enterprise digital workplace engine providing team communication spaces, social networking, recognition badges, and internal employee engagement mechanisms with self-hosted on-premises deployment options.
 
 ### 5. 👥 [Microsoft Teams New Employee Onboarding (NEO)](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding)
-[![GitHub stars](https://img.shields.io/github/stars/OfficeDev/microsoft-teams-apps-newemployeeonboarding?style=social&color=white)](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/OfficeDev/microsoft-teams-apps-newemployeeonboarding?style=social&color=white)](https://github.com/OfficeDev/microsoft-teams-apps-newemployeeonboarding/stargazers)
 * 🛠️ **Tech Stack:** C#, Microsoft Bot Framework, SharePoint
 * 🎯 **Focus:** New Hire Engagement & Onboarding Pulse Feedback
 * 📝 **Description:** Open-source Teams app built by Microsoft that connects new employees to organizational culture, coordinates peer buddies, and deploys automated onboarding pulse surveys to gauge early retention sentiment.
 
 ### 6. ❓ [Employee Survey Questions](https://github.com/joyouslabs/employee-survey-questions)
-[![GitHub stars](https://img.shields.io/github/stars/joyouslabs/employee-survey-questions?style=social&color=white)](https://github.com/joyouslabs/employee-survey-questions/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/joyouslabs/employee-survey-questions?style=social&color=white)](https://github.com/joyouslabs/employee-survey-questions/stargazers)
 * 🛠️ **Tech Stack:** Markdown, JSON, Open Question Bank
 * 🎯 **Focus:** Open-Source Engagement Question Sets & eNPS Methodology
 * 📝 **Description:** A battle-tested open-source question repository formulated by people scientists for measuring workplace sentiment, psychological safety, leadership trust, and employee Net Promoter Score (eNPS).
 
 ### 7. 🧭 [OpenSteer](https://github.com/reckonsys/opensteer)
-[![GitHub stars](https://img.shields.io/github/stars/reckonsys/opensteer?style=social&color=white)](https://github.com/reckonsys/opensteer/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/reckonsys/opensteer?style=social&color=white)](https://github.com/reckonsys/opensteer/stargazers)
 * 🛠️ **Tech Stack:** Python, Django, React
 * 🎯 **Focus:** Open Employee Performance, 1:1 Check-ins & Engagement
 * 📝 **Description:** An open-source alternative to commercial continuous feedback tools, supporting employee goals, structured 1:1 check-in meetings, and continuous sentiment tracking.
 
 ### 8. 🔄 [Check-Ins](https://github.com/objectcomputing/check-ins)
-[![GitHub stars](https://img.shields.io/github/stars/objectcomputing/check-ins?style=social&color=white)](https://github.com/objectcomputing/check-ins/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/objectcomputing/check-ins?style=social&color=white)](https://github.com/objectcomputing/check-ins/stargazers)
 * 🛠️ **Tech Stack:** Micronaut, React, PostgreSQL, GCP
 * 🎯 **Focus:** Team Pulse Surveys, Mentorship & Feedback Management
 * 📝 **Description:** Full-featured open-source team engagement platform featuring recurring pulse surveys to measure team morale, feedback threads, peer kudos, and mentorship tracking.
 
 ### 9. 🙌 [HighFive Employee Recognition App](https://github.com/binduprakash/HighFive-Employee-Recognition-App)
-[![GitHub stars](https://img.shields.io/github/stars/binduprakash/HighFive-Employee-Recognition-App?style=social&color=white)](https://github.com/binduprakash/HighFive-Employee-Recognition-App/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/binduprakash/HighFive-Employee-Recognition-App?style=social&color=white)](https://github.com/binduprakash/HighFive-Employee-Recognition-App/stargazers)
 * 🛠️ **Tech Stack:** React, Ruby on Rails, PostgreSQL
 * 🎯 **Focus:** Peer Recognition & Gamified Rewards
 * 📝 **Description:** A community peer recognition platform facilitating peer-to-peer point allowances, shout-outs tied to company values, rewards redemption, and Slack notifications.
 
 ### 10. 📊 [Open Pulse Survey](https://github.com/BrainStation-23/openpulsesurvey)
-[![GitHub stars](https://img.shields.io/github/stars/BrainStation-23/openpulsesurvey?style=social&color=white)](https://github.com/BrainStation-23/openpulsesurvey/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/BrainStation-23/openpulsesurvey?style=social&color=white)](https://github.com/BrainStation-23/openpulsesurvey/stargazers)
 * 🛠️ **Tech Stack:** Node.js, Express, React, MongoDB
 * 🎯 **Focus:** Enterprise Anonymous Pulse Surveys & Real-time Analytics
 * 📝 **Description:** Survey management platform engineered for businesses to distribute anonymous employee surveys, track response rates, and generate instant sentiment visualizer dashboards.
 
 ### 11. 🤖 [Alignify](https://github.com/iam-tsr/alignify)
-[![GitHub stars](https://img.shields.io/github/stars/iam-tsr/alignify?style=social&color=white)](https://github.com/iam-tsr/alignify/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/iam-tsr/alignify?style=social&color=white)](https://github.com/iam-tsr/alignify/stargazers)
 * 🛠️ **Tech Stack:** Python, DistilBERT, Qwen LLM, Docker
 * 🎯 **Focus:** AI-Powered Anonymous Surveys & NLP Sentiment Classification
 * 📝 **Description:** Purpose-built AI employee engagement prototype that uses Qwen for automatic contextual question generation and DistilBERT for real-time sentiment scoring of qualitative employee comments.
 
 ### 12. 👍 [Good Job](https://github.com/dongitran/Good-Job)
-[![GitHub stars](https://img.shields.io/github/stars/dongitran/Good-Job?style=social&color=white)](https://github.com/dongitran/Good-Job/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/dongitran/Good-Job?style=social&color=white)](https://github.com/dongitran/Good-Job/stargazers)
 * 🛠️ **Tech Stack:** NestJS, React, PostgreSQL, SSE
 * 🎯 **Focus:** Peer-to-Peer Kudos & Value-Tied Reward System
 * 📝 **Description:** Modern recognition platform featuring a dual-balance point distribution system (giveable vs. redeemable), core value tags, real-time activity feeds via Server-Sent Events, and administrative reward inventory tracking.
@@ -184,3 +184,12 @@ We welcome contributions from the community! 🙌
 <p align="center">
   <b>Built with ❤️ for People Operations, People Analytics, HR Tech Engineers &amp; Engineering Leaders.</b>
 </p>
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Employee-Engagement-Platform&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Employee-Engagement-Platform_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Employee-Engagement-Platform_growth.svg">
+  </picture>
+</a>
